@@ -1,15 +1,3 @@
-<!--
- * @Author: Ena Heleneto by15242952083@outlook.com
- * @Date: 2024-05-21 09:22:26
- * @LastEditors: Ena Heleneto by15242952083@outlook.com
- * @LastEditTime: 2024-05-21 09:24:10
- * @FilePath: \Chi-Chi-Berry-Berry-Grape-Grape\README.md
- * @Description: 
- * Copyright (c) 2024 by Ena Heleneto email: by15242952083@outlook.com, All Rights Reserved.
--->
-# -
-个人小程序
-
 <p align="center">
   <img src="https://github.com/uni-helper/vitesse-uni-app/raw/main/.github/images/preview.png" width="300"/>
 </p>
