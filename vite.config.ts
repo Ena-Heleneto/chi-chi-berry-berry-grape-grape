@@ -1,8 +1,11 @@
 import Uni from '@dcloudio/vite-plugin-uni'
 import UniHelperComponents from '@uni-helper/vite-plugin-uni-components'
+
+import { WotResolver } from '@uni-helper/vite-plugin-uni-components/resolvers'
 import UniHelperLayouts from '@uni-helper/vite-plugin-uni-layouts'
 import UniHelperManifest from '@uni-helper/vite-plugin-uni-manifest'
 import UniHelperPages from '@uni-helper/vite-plugin-uni-pages'
+
 import AutoImport from 'unplugin-auto-import/vite'
 import { defineConfig } from 'vite'
 
@@ -24,6 +27,7 @@ export default async () => {
       UniHelperComponents({
         dts: 'src/components.d.ts',
         directoryAsNamespace: true,
+        resolvers: [WotResolver()],
       }),
       Uni(),
       // https://github.com/antfu/unplugin-auto-import
