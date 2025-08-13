@@ -1,8 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <AppLogos />
-  <InputEntry />
+  <view>index</view>
 </template>
 
 <style></style>
@@ -10,3 +9,9 @@
 <route type="home" lang="json">
 {}
 </route>
+
+<!-- <route lang="json">
+{
+  "layout": "home"
+}
+</route> -->
