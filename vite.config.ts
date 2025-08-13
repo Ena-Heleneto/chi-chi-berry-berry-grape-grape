@@ -1,5 +1,6 @@
 import Uni from '@uni-helper/plugin-uni'
 import UniHelperComponents from '@uni-helper/vite-plugin-uni-components'
+import { WotResolver } from '@uni-helper/vite-plugin-uni-components/resolvers'
 import UniHelperLayouts from '@uni-helper/vite-plugin-uni-layouts'
 import UniHelperManifest from '@uni-helper/vite-plugin-uni-manifest'
 import UniHelperPages from '@uni-helper/vite-plugin-uni-pages'
@@ -23,6 +24,7 @@ export default defineConfig({
     UniHelperComponents({
       dts: 'src/components.d.ts',
       directoryAsNamespace: true,
+      resolvers: [WotResolver()],
     }),
     // https://github.com/uni-helper/plugin-uni
     Uni(),

@@ -98,7 +98,8 @@
     "unplugin-auto-import": "^19.3.0",
     "vite": "^5.2.8",
     "vite-plugin-uni-polyfill": "^0.1.0",
-    "vue-tsc": "^3.0.4"
+    "vue-tsc": "^3.0.4",
+    "wot-design-uni": "^1.11.1"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"

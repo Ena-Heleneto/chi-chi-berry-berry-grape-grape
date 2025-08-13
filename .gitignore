@@ -19,3 +19,8 @@ dist
 *.njsproj
 *.sln
 *.sw?
+
+
+auto-imports.d.ts
+components.d.ts
+uni-pages.d.ts
