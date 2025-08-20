@@ -1,17 +1,20 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import a from '@/static/images/a.jpg'
+import b from '@/static/images/b.jpg'
+</script>
 
 <template>
-  <view>index</view>
+  <view>
+    <wd-img :width="100" :height="100" :src="a" />
+    <wd-img :width="100" :height="100" :src="b" />
+  </view>
 </template>
 
-<style></style>
-
 <route type="home" lang="json">
-{}
-</route>
-
-<!-- <route lang="json">
 {
-  "layout": "home"
+  "layout": "home",
+  "meta": {
+    "showNarBar": false
+  }
 }
-</route> -->
+</route>

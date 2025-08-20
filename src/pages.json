@@ -2,10 +2,28 @@
   "pages": [
     {
       "path": "pages/index",
-      "type": "home"
+      "type": "home",
+      "layout": "home",
+      "meta": {
+        "showNarBar": false
+      }
     },
     {
-      "path": "pages/hi",
+      "path": "pages/batch",
+      "type": "page",
+      "layout": "home",
+      "meta": {
+        "showNarBar": true,
+        "title": "Batch Processor"
+      }
+    },
+    {
+      "path": "pages/cloud",
+      "type": "page",
+      "layout": "home"
+    },
+    {
+      "path": "pages/edit",
       "type": "page",
       "layout": "home"
     }
