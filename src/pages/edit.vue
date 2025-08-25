@@ -1,5 +1,5 @@
 <template>
-  <view />
+  <view class="h-full w-full" />
 </template>
 
 <route  lang="json">

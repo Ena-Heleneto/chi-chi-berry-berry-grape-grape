@@ -1,5 +1,7 @@
 <template>
-  <view />
+  <view>
+    cloud
+  </view>
 </template>
 
 <route  lang="json">
