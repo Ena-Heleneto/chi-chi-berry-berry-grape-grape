@@ -53,5 +53,6 @@
   "explorer.fileNesting.patterns": {
     "vite.config.*": "pages.config.*, manifest.config.*, uno.config.*, volar.config.*, *.env, .env.*"
   },
-  "vite.autoStart": false
+  "vite.autoStart": false,
+  "files.autoSave": "afterDelay"
 }
